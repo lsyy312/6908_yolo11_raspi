@@ -46,6 +46,16 @@ Deploying YOLOv11n on Raspberry Pi 5 using NCNN for real-time object detection.
 | **YOLOv11s (NCNN)**      | **0.6850** | **4.76** | **36.1 MB** |
 
 
+##  Input Size Ablation
+| Input Size | mAP\@50 | mAP\@50–95 | Inference Time (ms) | FPS  |
+| ---------- | ------- | ---------- | ------------------- | ---- |
+| 320        | 0.760   | 0.562      | 19.7                | 46.5 |
+| 416        | 0.806   | 0.610      | 36.0                | 25.8 |
+| 512        | 0.828   | 0.634      | 60.4                | 15.5 |
+| 640        | 0.840   | 0.643      | 94.1                | 10.1 |
+
+
+
 
 ## 📄 License
 MIT
