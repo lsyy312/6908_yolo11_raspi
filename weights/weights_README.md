@@ -33,7 +33,7 @@ This document summarizes all exported weight files used in this project.
 - **mAP@50–95:** 0.645
 - **Use Case:** Primary model for deployment
 
-## yolov11s_voc.pt
+## yolov11s_VOC
 - **Model:** YOLOv11s
 - **Dataset:** Pascal VOC
 - **Input Size:** 640
