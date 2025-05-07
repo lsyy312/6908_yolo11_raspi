@@ -31,6 +31,9 @@ Deploying YOLOv11n on Raspberry Pi 5 using NCNN for real-time object detection.
 | YOLOv11n (Paddle)        | 0.6433     | 2.22      | 20.2 MB     |
 | YOLOv11n (MNN)           | 0.6431     | 8.93      | 10.0 MB     |
 | **YOLOv11n (NCNN)**      | **0.6427** | **12.33** | **10.0 MB** |
+
+| Model                    | mAP\@50-95 | FPS      | Size        |
+| ------------------------ | ---------- | -------- | ----------- |
 | YOLOv11s (PyTorch)       | 0.6926     | 1.03     | 18.3 MB     |
 | YOLOv11s (TorchScript)   | 0.6851     | 0.84     | 36.4 MB     |
 | YOLOv11s (ONNX)          | 0.6851     | 2.15     | 36.2 MB     |
@@ -41,6 +44,7 @@ Deploying YOLOv11n on Raspberry Pi 5 using NCNN for real-time object detection.
 | YOLOv11s (Paddle)        | 0.6851     | 0.89     | 72.4 MB     |
 | YOLOv11s (MNN)           | 0.6857     | 3.71     | 36.1 MB     |
 | **YOLOv11s (NCNN)**      | **0.6850** | **4.76** | **36.1 MB** |
+
 
 
 ## 📄 License
