@@ -1,0 +1,37 @@
+description: Ultralytics YOLO11n model trained on D:\Anaconda\envs\yolov11\Lib\site-packages\ultralytics\cfg\datasets\VOC.yaml
+author: Ultralytics
+date: '2025-04-30T20:34:15.433980'
+version: 8.3.121
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: aeroplane
+  1: bicycle
+  2: bird
+  3: boat
+  4: bottle
+  5: bus
+  6: car
+  7: cat
+  8: chair
+  9: cow
+  10: diningtable
+  11: dog
+  12: horse
+  13: motorbike
+  14: person
+  15: pottedplant
+  16: sheep
+  17: sofa
+  18: train
+  19: tvmonitor
+args:
+  batch: 1
+  half: false
+channels: 3
